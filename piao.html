@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>淮北客运站</title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/public-head-foot.css" />
+		<link rel="stylesheet" href="css/piao.css" />
+	</head>
+	<body>
+		<header class="margin">
+			<a href="index.html"><img src="img/logo.png" class="l" /></a>
+			<a href="reg.html" class="r margin_a reg">立即注册</a>
+			<a href="login.html" class="r margin_a login">登录</a>
+		</header>
+		<nav>
+			<div class="margin">
+			<ul>
+				<li><a href="index.html">首&nbsp;&nbsp;页</a></li>
+				<li><span>汽车票</span></li>
+				<li><a href="time.html">汽车时刻表</a></li>
+				<li><a href="new.html">新闻中心</a></li>
+				<li><a href="zhan.html">站内资讯</a></li>
+				<li><a href="xin.html">5心驿站</a></li>
+				<li><a href="video_list.html">视频新闻</a></li>
+			</ul>
+		</div>
+		</nav>
+		<div class="margin">
+			<div class="posi">您当前的位置：<a href="index.html" class="blue">首页</a>&nbsp;&nbsp;>&nbsp;&nbsp;汽车票</div>
+			<div class="selpiao">
+				<ul>
+					<li>
+						<span>出发</span><i>|</i>
+						<input name="" type="text" value="淮北" id="piao_start">
+						<a href="javascript:;" id="change"></a>
+					</li>
+					<li class="li_piao">
+						<span>终点</span><i>|</i>
+						<input name="" type="text" id="piao_arrive">
+						<a href="javascript:;" class="tabtimeico"></a> 
+						<div id="hidecitys">
+							<a href="javascript:;">蚌埠</a>
+							<a href="javascript:;">合肥</a>
+							<a href="javascript:;">徐州</a>
+							<a href="javascript:;">淮南</a>
+							<a href="javascript:;">北京</a>
+							<a href="javascript:;">上海</a>
+							<a href="javascript:;">杭州</a>
+							<a href="javascript:;">南京</a>
+							<a href="javascript:;">安庆</a>
+							<a href="javascript:;">阜阳</a>
+							<a href="javascript:;">马鞍山</a>
+							<a href="javascript:;">六安</a>
+						</div>
+					</li>
+					<li>
+						<span>日期</span><i>|</i>
+						<input name="" type="text" id="piao_date" class="laydate-icon" onclick="laydate()">
+					</li>
+					<li>
+						<a href="javascript:;" class="colfff" id="piao_query">查 询</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<table id="piaotable">
+			<thead>
+				<tr class="head">
+					<th class="timesboxf">发/到时间</th>
+					<th class="posibox">&nbsp;&nbsp;&nbsp;发/到站</th>
+					<th class="cartyf">车型</th>
+					<th class="moneyf">票价</th>
+					<th class="bookf"></th>
+				</tr>
+			</thead>
+			<tbody id="tbody">
+				<tr><td class='font_meg' colspan='5'>尚未查询</td></tr>
+			</tbody>
+		</table>
+		<footer class="foot">
+			<p>Copyright© 2007-2014 延安客运官网 www.trip8080-yanankeyun.com  All Right Reserved</p>
+			<p >ICP备案号：苏ICP备11079920号┆经营许可证编号：苏B2-20170049 苏B1-20170030</p>
+		</footer>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/username.js"></script>
+		<script src="laydate/laydate.js"></script>
+		<script type="text/javascript" src="js/piao.js"></script>
+		
+	</body>
+</html>

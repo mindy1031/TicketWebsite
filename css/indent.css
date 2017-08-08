@@ -1,0 +1,97 @@
+body,html{
+	background: #f1f1f1;
+}
+
+header{padding-bottom:20px;border-bottom:2px solid #0075B0;background:#fff;}
+
+section{
+	background:#fff;
+	
+}
+
+section .margin{
+	padding:20px 0 80px;
+}
+.posi{
+	padding-bottom:20px;
+}
+
+.state{
+	margin-bottom:60px;
+	font:12px/30px "微软雅黑";
+	text-align:center;
+}
+.state .green{
+	display:inline-block;
+	line-height:30px;
+	vertical-align:middle;
+	width: 256px;
+	height:18px;
+	margin-top:-4px;
+	background:url(../img/green.jpg);
+	margin-right:15px;
+}
+.green_font{
+	color:#add352;
+}
+.state .gray{
+	display:inline-block;
+	width: 256px;
+	height:18px;
+	line-height:30px;
+	vertical-align:middle;
+	background:url(../img/gray.jpg);
+	margin:-4px 15px 0;
+}
+
+section .message{
+	text-align:center;
+	width:100%;
+	padding:40px 20px;
+	border: 1px solid #46b0ff;
+	background:#eff7fd;
+	font:14px/30px "微软雅黑";
+	color:#333;
+}
+.message b{
+	color:#666;
+	font:20px/40px "微软雅黑";
+	margin-right:20px;
+}
+.arrow{
+	width:47px;
+	height: 11px;
+	display: inline-block;
+	background:url(../img/jian.jpg);
+}
+.message .date{
+	margin:0 150px 0 100px;
+}
+.message .encity{
+	margin-right:50px;
+}
+.message .typecar{
+	margin-left:120px;
+}
+.price{
+	margin-left:8px;
+	color:#ff1600;
+	font:700 14px/30px "微软雅黑"
+}
+section .btn{
+	text-align:center;
+	margin-top:40px;
+}
+.modify,.submit{
+	display:inline-block;
+	background:#ffb100;
+	padding:10px 20px;
+	border-radius:5px;
+	color:#fff;
+	margin: 20px 40px;
+}
+.modify:hover,.submit:hover{
+	background:#ff9600;
+	color:#fff;
+}
+.logreg{margin-top:0 ;}

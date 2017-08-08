@@ -1,0 +1,49 @@
+/*登录*/
+body{
+	background: #f1f1f1;
+}
+.login{padding-bottom:20px;border-bottom:2px solid #0075B0;background:#fff;}
+.login .bor1{width:1px;height:34px;background:#CCCCCC;margin:19px 10px 0;}
+.login .tabh3{font:20px/30px "微软雅黑";margin-top:19px;}
+
+.padd30{padding-left:30px;}
+.logregwid{min-height:540px;height:540px;background:#fff;}
+.log .leftimg{margin:50px 30px 0 50px;}
+.log form{margin:50px  50px 0 30px;padding:0 15px;width:370px;height:430px;border:1px solid #ccc;}
+.log form p{height:42px;border-bottom:1px solid #afe2ff;}
+.log form p b{font:16px/42px "微软雅黑";color:#000;}
+.log form p a{font:12px/42px "微软雅黑";color:#1188ee;}
+.log .radio{font:14px/50px "";}
+.log .bor1s{margin-left:30px;display:block;border-radius:5px;border:1px solid #ccc;width:240px;height:32px;}
+.log .username{background:url(../img/5.jpg) no-repeat 5px 7px;text-indent:2em;}
+.log span{display:block;font:12px/30px "微软雅黑";color:#999;height:30px;}
+.log .password{background:url(../img/5.jpg) no-repeat 7px -38px;text-indent:2em;}
+.log .chex{margin-left:30px;height:42px;vertical-align:middle;}
+.log .button{border:0;background:#ff7600;height:42px;color:#fff;font:16px/42px "";margin:10px 0 30px 30px;}
+.log s{display:block;font:12px/42px "微软雅黑";color:#333;border-top:1px dashed #ccc;}
+.log .sina{margin-left:30px;}
+
+/* 注册*/
+.register .vip{margin-top:50px;font:14px/42px "";color:#444;}
+.register .blua{color:#0099ee;}
+.reg{padding-top:30px; }
+.reg form{width:520px;}
+.reg form label{display:inline-block;width:140px;height:40px;padding-right:10px;text-align:right;vertical-align:middle;}
+.reg form i{color:#ff4700;font:14px/42px "";}
+.reg form b{font:16px/42px "";color:#999;margin-left:8px;}
+.reg form .text{width:260px;height:38px;border:1px solid #ccc;border-radius:5px;vertical-align:middle;}
+.reg form .text2{width:140px;height:38px;border:1px solid #ccc;border-radius:5px;vertical-align:middle;}
+.reg form button{vertical-align:middle;width:100px;margin-left:20px;color:#fff;background:#1188ee;height:38px;border-radius:5px;font-size:14px;}
+.reg form span{vertical-align:middle;display:inline-block;color:#666;width:260px;height:36px;font:12px/18px "";}
+.reg form .servic label{height:10px;}
+.reg .servic{font:14px/30px "";margin-bottom:10px;;}
+.reg a{color:#1188ee;}
+.reg .botton{display:inline-block;border-radius:5px;background:#ff7600;width:260px;height:38px;color:#fff;text-align:center;}
+.reg .leftimg{margin:20px 20px 0 0;}
+.reg form .qusetion label{height:20px;}
+.reg .hig14{height:14px;font-size:0;}
+#code{margin:0;padding:0;letter-spacing:4px;display:inline-block;height:37px;line-height:37px;background:url(../img/pointer.png) no-repeat;border:1px solid #000;color:#000;font:24px/38px "微软雅黑";margin-left:20px;width:100px;text-align:center;}
+.code .hig14{
+	height:20px;
+}
+.logreg{margin-top:0 ;}

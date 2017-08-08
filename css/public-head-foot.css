@@ -1,0 +1,46 @@
+a:hover{color:#ee0000;}
+a:hover p{color:#ee0000;}
+p{color:#666;}
+small{font-size: 12px;}
+a.blue:link,a.blue:visited{color:#0088cc;}
+a.blue:hover,a.blue:active{color:#ee0000;}
+.colee0{color:#ee0000}
+input{
+	outline: none;
+}
+.margin{width:1000px;margin:0 auto;}
+
+header{height:76px;padding-top:20px;}
+header a{color:#bbb;margin:0 10px;}
+
+nav{height:48px;background:#0088cc;}
+nav ul li{font:20px/48px "微软雅黑";float:left }
+nav ul li a{color:#fff;padding:0 30px;display:block;}
+nav ul li a:hover{background:#0075b0;color:#fff}
+nav ul li span{background:#0075b0;color:#fff;padding:0 30px;display:block;}
+
+.newsli{padding-top:5px;}
+.newsli li{font:12px/26px "微软雅黑";overflow:hidden;}
+.newsli li p{float:left;background:url(../img/ico.gif) no-repeat 0 9px;padding-left:10px;width:230px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.newsli li span{float:right;color:#bbb;}
+/*视频新闻  */
+.posi{font:12px/40px "微软雅黑";}
+.box{border:solid 1px #eeeeee; padding:20px 20px 0;min-height:300px;}
+.box h2{color:#0088cc;font:16px/28px "微软雅黑";}
+.box .newsli li p{width:600px;}
+.boxnewsli li span{ padding-right:20px;}
+
+.bannerimgs{margin-top:10px;}
+.videop{font:12px/60px "微软雅黑";height:60px;color:#555;display:block;}
+
+/*左侧栏*/
+.newcont{width:270px;}
+.listleft{border:solid 1px #dddddd;border-top:0;padding:0 10px}
+.listleft ul li{height:42px;border-bottom:solid 1px #eeeeee;font:14px/42px "微软雅黑";}
+.listleft ul li span{background:url(../img/ico.gif) no-repeat 30px -17px;padding-left:45px;font-weight:bold; color:#0088cc}
+a.lista:link,a.lista:visited{background:url(../img/ico.gif) no-repeat 30px -39px; padding-left:45px}
+a.lista:hover,a.lista:active{background:url(../img/ico.gif) no-repeat 30px -17px; padding-left:45px; font-weight:bold; color:#0088cc}
+
+
+footer{background:url(../img/botbg.gif) repeat-x #f1f1f1;padding:30px 0 50px;margin-top:40px;}
+footer p{text-align:center;color:#999999;height:20px;line-height:20px}

@@ -1,0 +1,36 @@
+
+.selpiao{width:100%;height:60px;background:#f5f5f5;}
+.selpiao ul li{background:#fff;position:relative;padding-left:8px;float:left;font:12px/30px "";width:200px;height:30px;border:1px solid #ccc;margin:12px 15px;}
+.selpiao ul li:first-child{margin-right:60px;}
+.selpiao ul li:last-child{width:120px;background:#0075B0;margin:12px 10px;border-radius:5px;color:#fff;text-align:center;}
+.selpiao ul li span{color:#bbb;}
+.selpiao ul li i{color:#bbb;margin-left:5px;}
+.selpiao ul li input{width:159px;height:26px;color:#333;}
+.selpiao ul li a.colfff{color:#fff;display:block;width:130px;height:30px;}
+.selpiao ul li .colfff{color:#fff}
+.selpiao .tabtimeico{background:url(../img/bg_all.gif) no-repeat;position:absolute;top:7px;right:8px;width:16px;height:16px;display:block;cursor:pointer;}
+.selpiao #change{position:absolute;right:-54px;top:7px;width:34px;height:17px;display:block;background:url(../img/change.gif) no-repeat;}
+
+.selpiao ul li:nth-child(2){position:relative;}
+.selpiao #hidecitys{display:none;position:absolute;left:0;top:30px;width:206px;height:100px;border:1px solid #ddd;background:#fff;padding:10px 0;}
+#hidecitys a{float:left;display:block;font:12px/30px "微软雅黑";width:65px;height:24px;text-align: center;}
+
+
+#piaotable{width:1000px;margin:0 auto;text-align:left;margin-top:10px;}
+#piaotable tr{border-bottom:1px solid #e5e5e5;height:80px;font:12px/30px "微软雅黑";}
+#piaotable .head{height:30px;background:#f1f1f1;border:0;}
+#piaotable .timesboxf{width:18%;padding-left:10px;}
+#piaotable .posiboxf{width:19%;padding-left:10px;}
+#piaotable .cartyf{width:19%;padding-left:10px;}
+#piaotable .moneyf{width:18%;padding-left:10px;}
+#piaotable .bookf{width:26%;text-align:right;padding-right:20px;}
+#piaotable .timesboxf .starttime{font:700 18px/30px "微软雅黑";color:#000;}
+
+#piaotable .posiboxf .positopioc{display:inline-block;vertical-align:middle;margin-top:-4px;width:15px;height:15px;background:url(../img/zong.png) no-repeat;}
+#piaotable .posiboxf .posibotioc{display:inline-block;vertical-align:middle;margin-top:-4px;width:15px;height:15px;background:url(../img/zong.png) no-repeat 0 -35px;}
+
+#piaotable .moneyf .money{color:#ff7600;font-size:18px;}
+
+#piaotable .bookf .book{background:#ff7600;color:#fff;width:70px;text-align:center;border-radius:5px;height:30px;display:inline-block;}
+#tbody .font_meg{width:1000px;text-align: center; margin:20px auto;font-size:30px;border: 0;}
+

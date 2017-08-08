@@ -1,0 +1,63 @@
+
+.banner{background:url(../img/bg.gif) no-repeat top center;padding:10px 0;height:282px;}
+.banner .margin{background:#ffffff;height:280px;border:solid 1px #e6e6e6;}
+.banner .bncotleft{border-right:solid 1px #e6e6e6;width:335px;height:280px;}
+.banner .bncotleft .clchadiv{border-top:none;height:275px;overflow:hidden}
+.banner .bncotleft .clchadiv .clchatab ul li{float:left;text-align:left;overflow:hidden;font:18px/42px "微软雅黑";cursor:pointer;height:45px; width:290px;padding-left:46px;background:url(../img/tab.gif) no-repeat 22px -3px #f6f6f6;border-top:4px solid #0088cc; border-bottom:1px solid #e6e6e6;color:#0088cc;}
+.banner .bncotleft .clchadiv .select{width:280px;height:170px;padding:30px 0 ;background:#fff;float:left;display:inline;margin-left:40px;}
+.banner .bncotleft .clchadiv .select li{position:relative;width:280px;float:left;display:inline;margin-bottom:20px;}
+.banner .bncotleft .clchadiv .select li label{width:48px;display:inline-block;}
+.banner .bncotleft .clchadiv .select li input{text-indent:1em;border:1px solid #999;width:200px;height:26px;}
+.banner .bncotleft .clchadiv .select li .coloror{background:#ff7600;color:#fff;font:12px/24px "";margin-left:5px;display:inline-block;width:80px;height:24px;text-align:center;border-radius:5px;}
+.banner .bncotleft .clchadiv .select li .coloror:hover{color:#fff;background:#f4a31d;}
+.banner .bncotleft .clchadiv .select li .tabcityico{ background:url(../img/bg_all.gif) no-repeat;position:absolute; top:5px; right:30px;width:16px;height:16px;display:block;cursor:pointer; background-position: -23px 0; }
+
+.banner #bnright{position:relative;width:632px;height:260px;padding:0;margin:10px 10px 0 0;}
+.banner #bnright ul li img{width:632px;height:260px;display:none;}
+.banner #bnright ul li img.first{display:block;}	
+.banner #bnright #point{width:70px;height:20px;position:absolute;left:50%;margin-left:-35px;bottom:5px;}
+.banner #bnright #point p{float:left;margin:0 5px;width:10px;height:10px;background:#fff;border-radius:50%;}
+.banner #bnright #point p.first{background:#0088cc;border:2px solid #fff;margin-top:-2px;}
+
+.banner .bncotleft .clchadiv .select .ind_li{position:relative;}
+.banner .bncotleft .clchadiv .select .ind_li #hidecitys{display:none;z-index:20;position:absolute;left:54px;top:28px;width:200px;height:100px;border:1px solid #ddd;background:#fff;padding:10px 0;}
+#hidecitys a{float:left;display:block;font:12px/30px "微软雅黑";width:65px;height:24px;text-align: center;}
+
+
+
+
+.newslist{padding-top:30px;height:280px;}
+.title{margin-bottom:20px;}
+.title img{width:45px;height:13px;margin-top:8px;}
+.newslist .newl{width:324px;margin-left:10px;}
+.newslist .newl .news{background:url(../img/new.gif) no-repeat;height:31px}
+.newsli li .nnnimg{margin:5px 0 0 5px;}
+
+.newslist .newc{width:324px;margin:0 42px;}
+.newslist .newc .zhan{background:url(../img/zhan.gif) no-repeat;height:31px}
+.newslist .newc .zhanp{text-indent:2em;font:12px/22px "微软雅黑";text-align:left;}
+.newslist .newc .zhanp img{width:143px;height:113px;vertical-align:top;text-align:left;margin-right:10px;}
+
+.newslist .newr{width:255px;}
+.newslist .newr .ban{background:url(../img/ban.gif) no-repeat;height:31px}
+.newslist .newr .newsli img{margin-left:10px;}
+.newslist .newr .newimg{margin-top:5px;}
+
+.video{margin:20px 0 0 10px;}
+.video .video-hd{background:url(../img/video.gif) no-repeat;height:31px;}
+.video #videob{position:relative;height:130px;}
+.video #videob a{display:block;width:23px;height:130px;margin:0 14px;position:absolute;top:0;}
+.video #videob a#left{left:0;background:url(../img/arrow.gif)no-repeat left;}
+.video #videob a#right{right:0;background:url(../img/arrow.gif)no-repeat right;}
+.video #videob #videoc{width:900px;height:130px;overflow:hidden;margin:0 50px;position:relative;}
+.video #videob #videoul{width:900%;height:130px;position:absolute;left:0;top:0;}
+.video #videob #videoul li{float:left;margin:0 15px;}
+.video #videob #videoul li img{width:270px;height:130px;}
+
+
+.foot_link_area{width:978px;border:1px solid #ccc;color:#666;padding:10px;margin:10px auto;}
+.foot_link_area a{padding:0 10px;border-right:1px dashed #999;color:#999;display:inline-block;margin:5px 0;}
+.foot_link_area a:hover{color:#ff6600}
+.foot_link_area .leftarea{width:60px;font-weight:bold;margin-top:4px;}
+.foot_link_area .rightarea{width:906px;}
+

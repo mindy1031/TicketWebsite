@@ -1,0 +1,14 @@
+
+#addr{font:12px/30px "微软雅黑";text-align:center;margin-bottom:10px;}
+#addr span{color:#666;}
+#addr a{color:#ff7600;}
+
+.timeh2{color:#0088cc;text-align:center;font:18px/60px "微软雅黑";}
+#table th{color:#0088cc;}
+#table td{color:#666;}
+#table{width:1000px;border:1px solid #ccc;text-align:center;}
+#table th, #table td{text-align:center;height:34px;border-left:1px solid #ccc;border-top:1px solid #ccc;}
+#table th{background-color:#c4dff1;}
+#table tr:nth-child(even) td{background:#f5f5f5;}/*even奇数行,odd偶数*/
+
+#fixeda{position:fixed;bottom:120px;right:20px;width:40px;font-size:12px;padding:6px 0;background:rgba(0,0,0,.5);color:#fff;text-align:center;}
